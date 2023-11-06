@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+	<!-- Parameters for tests at runtime -->
+	<TestRunParameters>
+		<Parameter name="GoodFileName" value="C:\Windows\Regedit.exe" />
+		<Parameter name="BadFileName" value="C:\NotExists.txt" />
+		<Parameter name="EmptyFileFailMsg" value="The Call to the FileExists() method did NOT throw an ArgumentNullException and it should have." />
+		<Parameter name="EmptyFileMsg" value="Checking for an empty file name." />
+	</TestRunParameters>
+</RunSettings>
