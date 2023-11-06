@@ -1,0 +1,11 @@
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClasses\bin\Debug\net6.0\MyClasses.deps.json
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClasses\bin\Debug\net6.0\MyClasses.dll
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClasses\bin\Debug\net6.0\MyClasses.pdb
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClasses\obj\Debug\net6.0\MyClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClasses\obj\Debug\net6.0\MyClasses.AssemblyInfoInputs.cache
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClasses\obj\Debug\net6.0\MyClasses.AssemblyInfo.cs
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClasses\obj\Debug\net6.0\MyClasses.csproj.CoreCompileInputs.cache
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClasses\obj\Debug\net6.0\MyClasses.dll
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClasses\obj\Debug\net6.0\refint\MyClasses.dll
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClasses\obj\Debug\net6.0\MyClasses.pdb
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClasses\obj\Debug\net6.0\ref\MyClasses.dll
