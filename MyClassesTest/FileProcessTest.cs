@@ -62,8 +62,20 @@ public class FileProcessTest
     }
 
     [TestMethod]
+    [ExpectedException(typeof(ArgumentNullException))]
     public void FileNameNullOrEmpty_UsingExpectedExceptionAttribute()
     {
-        Assert.Inconclusive();
+        // Arrange
+        FileProcess fileProcess = new();
+        string fileName = string.Empty;
+        bool fromCall;
+
+        // Act
+        fromCall = fileProcess.FileExists(fileName);
+
+        // Assert: Fail as we should not get here
+        Assert.Fail(@"The Call to the FileExists() method did
+                        NOT throw an ArgumentNullException and
+                        it should have.");
     }
 }
