@@ -12,7 +12,7 @@ public class FileProcessTest
     {
         // Arrange
         FileProcess fileProcess = new();
-        string fileName = TestConstants.GOOD_FILE_NAME;
+        string fileName = TestContext?.Properties?["GoodFileName"]?.ToString() ?? TestConstants.GOOD_FILE_NAME;
         bool fromCall;
 
         // Add Messages to Test Output
@@ -30,7 +30,7 @@ public class FileProcessTest
     {
         // Arrange
         FileProcess fileProcess = new();
-        string fileName = TestConstants.BAD_FILE_NAME;
+        string fileName = TestContext?.Properties?["BadFileName"]?.ToString() ?? TestConstants.BAD_FILE_NAME;
         bool fromCall;
 
         // Add Messages to Test Output
@@ -50,6 +50,7 @@ public class FileProcessTest
         FileProcess fileProcess;
         string fileName = string.Empty;
         bool fromCall = false;
+        string OutputMessage;
 
         try
         {
@@ -57,12 +58,14 @@ public class FileProcessTest
             fileProcess = new();
 
             // Add Messages to Test Output
+            OutputMessage = TestContext?.Properties?["EmptyFileMsg"]?.ToString() ?? TestConstants.EMPTY_FILE_MSG;
             TestContext?.WriteLine(TestConstants.EMPTY_FILE_MSG);
 
             fromCall = fileProcess.FileExists(fileName);
 
             // Assert: Fail as we should not get here
-            Assert.Fail(TestConstants.EMPTY_FILE_FAIL_MSG);
+            OutputMessage = TestContext?.Properties?["EmptyFileFailMsg"]?.ToString() ?? TestConstants.EMPTY_FILE_FAIL_MSG;
+            Assert.Fail(OutputMessage);
         }
         catch (ArgumentNullException) 
         {
@@ -79,14 +82,17 @@ public class FileProcessTest
         FileProcess fileProcess = new();
         string fileName = string.Empty;
         bool fromCall;
+        string OutputMessage;
 
-        // Assert: Fail as we should not get here
-        TestContext?.WriteLine(TestConstants.EMPTY_FILE_MSG);
+        // Add Messages to Test Output
+        OutputMessage = TestContext?.Properties?["EmptyFileMsg"]?.ToString() ?? TestConstants.EMPTY_FILE_MSG;
+        TestContext?.WriteLine(OutputMessage);
 
         // Act
         fromCall = fileProcess.FileExists(fileName);
 
         // Assert: Fail as we should not get here
-        Assert.Fail(TestConstants.EMPTY_FILE_FAIL_MSG);
+        OutputMessage = TestContext?.Properties?["EmptyFileFailMsg"]?.ToString() ?? TestConstants.EMPTY_FILE_FAIL_MSG;
+        Assert.Fail(OutputMessage);
     }
 }
