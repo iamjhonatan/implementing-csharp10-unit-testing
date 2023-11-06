@@ -2,7 +2,7 @@
 <RunSettings>
 	<!-- Parameters for tests at runtime -->
 	<TestRunParameters>
-		<Parameter name="GoodFileName" value="C:\Windows\Regedit.exe" />
+		<Parameter name="GoodFileName" value="[AppDataPath]\TestFile.txt" />
 		<Parameter name="BadFileName" value="C:\NotExists.txt" />
 		<Parameter name="EmptyFileFailMsg" value="The Call to the FileExists() method did NOT throw an ArgumentNullException and it should have." />
 		<Parameter name="EmptyFileMsg" value="Checking for an empty file name." />

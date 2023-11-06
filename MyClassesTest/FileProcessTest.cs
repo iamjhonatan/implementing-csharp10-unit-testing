@@ -16,10 +16,19 @@ public class FileProcessTest
         bool fromCall;
 
         // Add Messages to Test Output
+        fileName = fileName.Replace("[AppDataPath]",
+            Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
         TestContext?.WriteLine($"Checking for File: '{fileName}'.");
+
+        // Create the Good File
+        File.AppendAllText(fileName, "Some Text");
 
         // Act
         fromCall = fileProcess.FileExists(fileName);
+
+        // Delete the Good File if it Exists
+        if (File.Exists(fileName))
+            File.Delete(fileName);
 
         // Assert
         Assert.IsTrue(fromCall);
