@@ -38,7 +38,27 @@ public class FileProcessTest
     [TestMethod]
     public void FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException()
     {
-        Assert.Inconclusive();
+        // Arrange
+        FileProcess fileProcess;
+        string fileName = string.Empty;
+        bool fromCall = false;
+
+        try
+        {
+            // Act
+            fileProcess = new();
+            fromCall = fileProcess.FileExists(fileName);
+
+            // Assert: Fail as we should not get here
+            Assert.Fail(@"The Call to the FileExists() method did
+                            NOT throw an ArgumentNullException and 
+                            it SHOULD have.");
+        }
+        catch (ArgumentNullException) 
+        {
+            // Assert: Test was a success
+            Assert.IsFalse(fromCall);
+        }
     }
 
     [TestMethod]
