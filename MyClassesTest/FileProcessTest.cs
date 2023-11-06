@@ -10,23 +10,23 @@ public class FileProcessTest : TestBase
     {
         // Arrange
         FileProcess fileProcess = new();
-        string fileName = GetTestSetting<string>("GoodFileName", TestConstants.GOOD_FILE_NAME);
+        FileName = GetTestSetting<string>("GoodFileName", TestConstants.GOOD_FILE_NAME);
         bool fromCall;
 
         // Add Messages to Test Output
-        fileName = fileName.Replace("[AppDataPath]",
+        FileName = FileName.Replace("[AppDataPath]",
             Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
-        TestContext?.WriteLine($"Checking for File: '{fileName}'.");
+        WriteOutput($"Checking for File: '{FileName}'.");
 
         // Create the Good File
-        File.AppendAllText(fileName, "Some Text");
+        File.AppendAllText(FileName, "Some Text");
 
         // Act
-        fromCall = fileProcess.FileExists(fileName);
+        fromCall = fileProcess.FileExists(FileName);
 
         // Delete the Good File if it Exists
-        if (File.Exists(fileName))
-            File.Delete(fileName);
+        if (File.Exists(FileName))
+            File.Delete(FileName);
 
         // Assert
         Assert.IsTrue(fromCall);
@@ -41,7 +41,7 @@ public class FileProcessTest : TestBase
         bool fromCall;
 
         // Add Messages to Test Output
-        TestContext?.WriteLine($"Checking for File: '{fileName}' does NOT exist.");
+        WriteOutput($"Checking for File: '{fileName}' does NOT exist.");
 
         // Act
         fromCall = fileProcess.FileExists(fileName);
@@ -55,9 +55,7 @@ public class FileProcessTest : TestBase
     {
         // Arrange
         FileProcess fileProcess;
-        string fileName = string.Empty;
         bool fromCall = false;
-        string OutputMessage;
 
         try
         {
@@ -66,9 +64,9 @@ public class FileProcessTest : TestBase
 
             // Add Messages to Test Output
             OutputMessage = GetTestSetting<string>("EmptyFileMsg", TestConstants.EMPTY_FILE_MSG);
-            TestContext?.WriteLine(TestConstants.EMPTY_FILE_MSG);
+            WriteOutput(TestConstants.EMPTY_FILE_MSG);
 
-            fromCall = fileProcess.FileExists(fileName);
+            fromCall = fileProcess.FileExists(FileName);
 
             // Assert: Fail as we should not get here
             OutputMessage = GetTestSetting<string>("EmptyFileFailMsg", TestConstants.EMPTY_FILE_FAIL_MSG);
@@ -87,16 +85,14 @@ public class FileProcessTest : TestBase
     {
         // Arrange
         FileProcess fileProcess = new();
-        string fileName = string.Empty;
         bool fromCall;
-        string OutputMessage;
 
         // Add Messages to Test Output
         OutputMessage = GetTestSetting<string>("EmptyFileMsg", TestConstants.EMPTY_FILE_MSG);
-        TestContext?.WriteLine(OutputMessage);
+        WriteOutput(OutputMessage);
 
         // Act
-        fromCall = fileProcess.FileExists(fileName);
+        fromCall = fileProcess.FileExists(FileName);
 
         // Assert: Fail as we should not get here
         OutputMessage = GetTestSetting<string>("EmptyFileFailMsg", TestConstants.EMPTY_FILE_FAIL_MSG);

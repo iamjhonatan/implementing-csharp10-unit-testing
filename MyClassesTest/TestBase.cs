@@ -3,6 +3,8 @@
 public class TestBase
 {
     public TestContext? TestContext { get; set; }
+	public string OutputMessage { get; set; } = string.Empty;
+	public string FileName { get; set; } = string.Empty;
 
     protected T GetTestSetting<T>(string name, T defaultValue)
     {
@@ -20,5 +22,10 @@ public class TestBase
 		}
 
 		return ret;
+    }
+
+	protected void WriteOutput(string output)
+	{
+		TestContext?.WriteLine(output);
     }
 }
