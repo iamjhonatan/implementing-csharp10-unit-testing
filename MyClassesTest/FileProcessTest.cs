@@ -10,7 +10,7 @@ public class FileProcessTest
     {
         // Arrange
         FileProcess fileProcess = new();
-        string fileName = @"C:\Windows\Regedit.exe";
+        string fileName = TestConstants.GOOD_FILE_NAME;
         bool fromCall;
 
         // Act
@@ -25,7 +25,7 @@ public class FileProcessTest
     {
         // Arrange
         FileProcess fileProcess = new();
-        string fileName = @"C:\DoesNotExist.txt";
+        string fileName = TestConstants.BAD_FILE_NAME;
         bool fromCall;
 
         // Act
@@ -50,9 +50,7 @@ public class FileProcessTest
             fromCall = fileProcess.FileExists(fileName);
 
             // Assert: Fail as we should not get here
-            Assert.Fail(@"The Call to the FileExists() method did
-                            NOT throw an ArgumentNullException and 
-                            it SHOULD have.");
+            Assert.Fail(TestConstants.EMPTY_FILE_FAIL_MSG);
         }
         catch (ArgumentNullException) 
         {
@@ -74,8 +72,6 @@ public class FileProcessTest
         fromCall = fileProcess.FileExists(fileName);
 
         // Assert: Fail as we should not get here
-        Assert.Fail(@"The Call to the FileExists() method did
-                        NOT throw an ArgumentNullException and
-                        it should have.");
+        Assert.Fail(TestConstants.EMPTY_FILE_FAIL_MSG);
     }
 }
