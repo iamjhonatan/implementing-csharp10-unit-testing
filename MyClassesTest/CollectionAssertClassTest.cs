@@ -99,4 +99,17 @@ public class CollectionAssertClassTest
                 x.LastName == y.LastName && 
                 x.Age == y.Age ? 0 : 1));
     }
+
+    [TestMethod]
+    public void IsCollectionOfTypeTest()
+    {
+        PersonManager pmg = new();
+        List<Person> actual;
+
+        actual = pmg.GetSupervisors();
+
+        // Check if all objects in the collection
+        // are of the type Supervisor
+        CollectionAssert.AllItemsAreInstancesOfType(actual, typeof(Supervisor));
+    }
 }
