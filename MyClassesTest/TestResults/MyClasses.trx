@@ -1,56 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="8d213ae9-a138-41bb-94a6-0a5ab2dba24f" name="Jhonatan Medeiros@DESKTOP-8DRS4MO 2023-11-07 17:59:11" runUser="DESKTOP-8DRS4MO\Jhonatan Medeiros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2023-11-07T17:59:11.4863565-03:00" queuing="2023-11-07T17:59:11.4863565-03:00" start="2023-11-07T17:59:11.0596452-03:00" finish="2023-11-07T17:59:11.4863565-03:00" />
-  <TestSettings name="default" id="2687a30e-4b28-433c-9ed8-efa63c6ea4e3">
-    <Deployment runDeploymentRoot="Jhonatan_Medeiros_DESKTOP-8DRS4MO_2023-11-07_17_59_11" />
+<TestRun id="8138b572-b266-48e1-9d86-ee4d402cfdc4" name="Jhonatan Medeiros@DESKTOP-8DRS4MO 2023-11-07 18:15:19" runUser="DESKTOP-8DRS4MO\Jhonatan Medeiros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-11-07T18:15:19.5891724-03:00" queuing="2023-11-07T18:15:19.5891725-03:00" start="2023-11-07T18:15:19.0417838-03:00" finish="2023-11-07T18:15:19.5966493-03:00" />
+  <TestSettings name="default" id="2db57ed6-4768-4a6f-9e8c-8ac8ec995727">
+    <Deployment runDeploymentRoot="Jhonatan_Medeiros_DESKTOP-8DRS4MO_2023-11-07_18_15_19" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="75a00391-0398-4e68-ad9f-4dc29bf02cfb" testId="4578ec5d-5943-35ba-e6fd-ba22af3da703" testName="FileNameDoesExistUsingDynamicData (FileDynamic2.txt)" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0000878" startTime="2023-11-07T17:59:11.4465991-03:00" endTime="2023-11-07T17:59:11.4470286-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75a00391-0398-4e68-ad9f-4dc29bf02cfb">
+    <UnitTestResult executionId="e2f4b9ea-06ee-4979-b8fb-c1950d2df557" testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" testName="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0010681" startTime="2023-11-07T18:15:19.4944430-03:00" endTime="2023-11-07T18:15:19.4957777-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2f4b9ea-06ee-4979-b8fb-c1950d2df557">
       <Output>
         <StdOut>TestContext Messages:
 in FileProcessTest.TestInitialize() method&#xD;
- Test Purpose: Check to see if a file exists using the [DynamicData] attribute..
+ Test Purpose: Check for a thrown ArgumentNullException using ExpectedException.
 Test Owner: JhonatanM.&#xD;
-Checking for File: 'FileDynamic2.txt' in folder 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0'</StdOut>
+Checking for an empty file name.</StdOut>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="7e9bffdc-1648-4bcc-8057-62d15b5f0e49" testId="c7df94d1-ff87-c752-eede-61ad543892bd" testName="FileNameDoesExistUsingDynamicData (FileDynamic.txt)" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0041220" startTime="2023-11-07T17:59:11.4120959-03:00" endTime="2023-11-07T17:59:11.4416133-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e9bffdc-1648-4bcc-8057-62d15b5f0e49">
+    <UnitTestResult executionId="37da21f5-09ea-4782-8ab1-56741926a521" testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" testName="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0035302" startTime="2023-11-07T18:15:19.4762329-03:00" endTime="2023-11-07T18:15:19.4898706-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37da21f5-09ea-4782-8ab1-56741926a521">
       <Output>
         <StdOut>TestContext Messages:
 In MyClassesTest.AssemblyInitCleanup.Assembly&#xD;
 In FileProcessTest.ClassInitialize() method&#xD;
 in FileProcessTest.TestInitialize() method&#xD;
- Test Purpose: Check to see if a file exists using the [DynamicData] attribute..
+ Test Purpose: Check for a thrown ArgumentNullException using ExpectedException.
 Test Owner: JhonatanM.&#xD;
-Checking for File: 'FileDynamic.txt' in folder 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0'</StdOut>
+Checking for an empty file name.</StdOut>
       </Output>
     </UnitTestResult>
   </Results>
   <TestDefinitions>
-    <UnitTest name="FileNameDoesExistUsingDynamicData (FileDynamic.txt)" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="3" id="c7df94d1-ff87-c752-eede-61ad543892bd">
+    <UnitTest name="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="1" id="0afa7d29-06f5-3a62-8ce9-439993ab8178">
       <Owners>
         <Owner name="JhonatanM" />
       </Owners>
       <TestCategory>
-        <TestCategoryItem TestCategory="NoException" />
+        <TestCategoryItem TestCategory="Exception" />
       </TestCategory>
-      <Execution id="7e9bffdc-1648-4bcc-8057-62d15b5f0e49" />
-      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesExistUsingDynamicData" />
+      <Execution id="e2f4b9ea-06ee-4979-b8fb-c1950d2df557" />
+      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" />
     </UnitTest>
-    <UnitTest name="FileNameDoesExistUsingDynamicData (FileDynamic2.txt)" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="3" id="4578ec5d-5943-35ba-e6fd-ba22af3da703">
+    <UnitTest name="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="2" id="e40784d4-b509-7b24-dc06-ffcaafa43c7b">
       <Owners>
         <Owner name="JhonatanM" />
       </Owners>
       <TestCategory>
-        <TestCategoryItem TestCategory="NoException" />
+        <TestCategoryItem TestCategory="Exception" />
       </TestCategory>
-      <Execution id="75a00391-0398-4e68-ad9f-4dc29bf02cfb" />
-      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesExistUsingDynamicData" />
+      <Execution id="37da21f5-09ea-4782-8ab1-56741926a521" />
+      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="4578ec5d-5943-35ba-e6fd-ba22af3da703" executionId="75a00391-0398-4e68-ad9f-4dc29bf02cfb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="c7df94d1-ff87-c752-eede-61ad543892bd" executionId="7e9bffdc-1648-4bcc-8057-62d15b5f0e49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" executionId="e2f4b9ea-06ee-4979-b8fb-c1950d2df557" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" executionId="37da21f5-09ea-4782-8ab1-56741926a521" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -58,13 +58,5 @@ Checking for File: 'FileDynamic.txt' in folder 'C:\Users\Jhonatan Medeiros\sourc
   </TestLists>
   <ResultSummary outcome="Completed">
     <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
-    <RunInfos>
-      <RunInfo computerName="DESKTOP-8DRS4MO" outcome="Warning" timestamp="2023-11-07T17:59:11.3955753-03:00">
-        <Text>Test Run deployment issue: Failed to copy file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic.txt' to 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic.txt': System.IO.IOException: The process cannot access the file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic.txt' because it is being used by another process.</Text>
-      </RunInfo>
-      <RunInfo computerName="DESKTOP-8DRS4MO" outcome="Warning" timestamp="2023-11-07T17:59:11.3955753-03:00">
-        <Text>Test Run deployment issue: Failed to copy file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic2.txt' to 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic2.txt': System.IO.IOException: The process cannot access the file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic2.txt' because it is being used by another process.</Text>
-      </RunInfo>
-    </RunInfos>
   </ResultSummary>
 </TestRun>
