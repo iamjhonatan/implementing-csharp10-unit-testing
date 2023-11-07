@@ -21,28 +21,52 @@ public class FileProcessTest : TestBase
     }
     #endregion
 
+    #region Test Initialize and Cleanup Methods
+    [TestInitialize()]
+    public void TestInitialize()
+    {
+        WriteOutput("in FileProcessTest.TestInitialize() method");
+
+        // Check to see which test we are running
+        if (GetTestName().Equals("FileNameDoesExist"))
+        {
+            // Get Good File Name
+            string fileName = GetFileName("GoodFileName", TestConstants.GOOD_FILE_NAME);
+
+            // Create the Good File
+            File.AppendAllText(fileName, "Some Text");
+        }
+    }
+
+    [TestCleanup()]
+    public void TestCleanup()
+    {
+        // Check to see which test we are running
+        if (GetTestName().Equals("FileNameDoesExist"))
+        {
+            // Get Good File Name
+            string fileName = GetFileName("GoodFileName", TestConstants.GOOD_FILE_NAME);
+
+            // Delete the Good File if it Exists
+            if (File.Exists(fileName))
+                File.Delete(fileName);
+        }
+    }
+    #endregion
+
     [TestMethod]
     public void FileNameDoesExist()
     {
         // Arrange
         FileProcess fileProcess = new();
-        FileName = GetTestSetting<string>("GoodFileName", TestConstants.GOOD_FILE_NAME);
+        FileName = GetFileName("GoodFileName", TestConstants.GOOD_FILE_NAME);
         bool fromCall;
 
         // Add Messages to Test Output
-        FileName = FileName.Replace("[AppDataPath]",
-            Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
         WriteOutput($"Checking for File: '{FileName}'.");
-
-        // Create the Good File
-        File.AppendAllText(FileName, "Some Text");
 
         // Act
         fromCall = fileProcess.FileExists(FileName);
-
-        // Delete the Good File if it Exists
-        if (File.Exists(FileName))
-            File.Delete(FileName);
 
         // Assert
         Assert.IsTrue(fromCall);
