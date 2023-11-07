@@ -88,4 +88,18 @@ public class TestBase
 		}
 	}
     #endregion
+
+    #region WriteOwner Method
+	protected void WriteOwner(Type typ)
+	{
+		// Retrieve the [Owner] attribute if it exists
+		OwnerAttribute? attr = GetAttribute<OwnerAttribute>(typ);
+
+		if (attr is not null)
+		{
+			// Output the test owner
+			TestContext?.WriteLine($"\nTest Owner: {attr.Owner}.");
+		}
+	}
+    #endregion
 }

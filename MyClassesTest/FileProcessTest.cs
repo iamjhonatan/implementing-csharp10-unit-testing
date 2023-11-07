@@ -26,8 +26,8 @@ public class FileProcessTest : TestBase
     public void TestInitialize()
     {
         WriteOutput("in FileProcessTest.TestInitialize() method");
-
-        WriteDescription(this.GetType());
+        WriteDescription(GetType());
+        WriteOwner(GetType());
 
         // Check to see which test we are running
         if (GetTestName().Equals("FileNameDoesExist"))
@@ -57,7 +57,8 @@ public class FileProcessTest : TestBase
     #endregion
 
     [TestMethod]
-    [Description("Check to see if a file exists.")]
+    [Owner("JhonatanM")]
+    [Description("Check to see if a file exists")]
     public void FileNameDoesExist()
     {
         // Arrange
@@ -76,7 +77,8 @@ public class FileProcessTest : TestBase
     }
 
     [TestMethod]
-    [Description("Check to see if file does not exist.")]
+    [Owner("JhonatanM")]
+    [Description("Check to see if file does not exist")]
     public void FileNameDoesNotExist()
     {
         // Arrange
@@ -95,7 +97,8 @@ public class FileProcessTest : TestBase
     }
 
     [TestMethod]
-    [Description("Check for a thrown ArgumentNullException using ExpectedException.")]
+    [Owner("JhonatanM")]
+    [Description("Check for a thrown ArgumentNullException using ExpectedException")]
     public void FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException()
     {
         // Arrange
@@ -125,7 +128,8 @@ public class FileProcessTest : TestBase
     }
 
     [TestMethod]
-    [Description("Check for a thrown ArgumentNullException using ExpectedException.")]
+    [Owner("JhonatanM")]
+    [Description("Check for a thrown ArgumentNullException using ExpectedException")]
     [ExpectedException(typeof(ArgumentNullException))]
     public void FileNameNullOrEmpty_UsingExpectedExceptionAttribute()
     {
