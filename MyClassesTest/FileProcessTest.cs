@@ -88,6 +88,31 @@ public class FileProcessTest : TestBase
     }
 
     [TestMethod]
+    [DeploymentItem("FileDataRow.txt")]
+    [DeploymentItem("FileDataRow2.txt")]
+    [DataRow("FileDataRow.txt")]
+    [DataRow("FileDataRow2.txt")]
+    [Description("Check to see if a file exists using the [DataRow] attribute.")]
+    [Owner("JhonatanM")]
+    [Priority(3)]
+    [TestCategory("NoException")]
+    public void FileNameDoesExistUsingDataRow(string fileName)
+    {
+        // Arrange
+        FileProcess fileProcess = new();
+        bool fromCall;
+
+        // Add Messages to Test Output
+        WriteOutput($"Checking for File: '{fileName}' in folder '{TestContext?.DeploymentDirectory}'");
+
+        // Act
+        fromCall = fileProcess.FileExists(fileName);
+
+        // Assert
+        Assert.IsTrue(fromCall, "File {0} does NOT exist.", fileName);
+    }
+
+    [TestMethod]
     [Description("Check to see if a file exists")]
     [Owner("JhonatanM")]
     [Priority(3)]
