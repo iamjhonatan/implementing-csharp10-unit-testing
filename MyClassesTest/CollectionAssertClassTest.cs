@@ -55,4 +55,48 @@ public class CollectionAssertClassTest
          */
         CollectionAssert.AreNotEqual(expected, actual);
     }
+
+    [TestMethod]
+    public void AreCollectionsEquivalentTest()
+    {
+        PersonManager pmg = new();
+        List<Person> expected = new();
+        List<Person> actual;
+
+        // Get collection of people
+        actual = pmg.GetPeople();
+
+        // Add same Person objects to new collection
+        // but in a diferent order
+        expected.Add(actual[1]);
+        expected.Add(actual[2]);
+        expected.Add(actual[0]);
+
+        // Checks for same objects, buut in any order
+        CollectionAssert.AreEquivalent(expected, actual);
+    }
+
+    [TestMethod]
+    public void AreCollectionsEqualWithComparerTest() 
+    {
+        PersonManager pmg = new();
+        List<Person> expected = new();
+        List<Person> actual;
+
+        // Get collection of people
+        actual = pmg.GetPeople();
+
+        // Create same exact objects as those returned
+        // from the pmg.GetProple method
+        expected.Add(new Person() { FirstName = "Jhonatan", LastName = "Medeiros", Age = 28 });
+        expected.Add(new Person() { FirstName = "Peter", LastName = "Parker", Age = 30 });
+        expected.Add(new Person() { FirstName = "Jay", LastName = "Weinberg", Age = 33 });
+
+        // Add an anonymous Comparer method to determine equality
+        CollectionAssert.AreEqual(expected, actual,
+            Comparer<Person>.Create((x, y) =>
+                x.FirstName == y.FirstName &&
+                x.LastName == y.LastName && 
+                x.Age == y.Age ? 0 : 1));
+    }
 }
