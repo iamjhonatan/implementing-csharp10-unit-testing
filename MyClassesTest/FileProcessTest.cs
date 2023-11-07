@@ -79,11 +79,13 @@ public class FileProcessTest : TestBase
         // Add Messages to Test Output
         WriteOutput($"Checking for File: '{FileName}'.");
 
+        FileName += "a";
+
         // Act
         fromCall = fileProcess.FileExists(FileName);
 
         // Assert
-        Assert.IsTrue(fromCall);
+        Assert.IsTrue(fromCall, "File {0} does NOT exist.", FileName);
     }
 
     [TestMethod]

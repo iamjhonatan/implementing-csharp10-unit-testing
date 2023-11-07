@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="5da3c8ab-f1df-4cc1-8657-378cca962a9f" name="Jhonatan Medeiros@DESKTOP-8DRS4MO 2023-11-07 10:39:11" runUser="DESKTOP-8DRS4MO\Jhonatan Medeiros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2023-11-07T10:39:11.6459672-03:00" queuing="2023-11-07T10:39:11.6459672-03:00" start="2023-11-07T10:39:11.2355166-03:00" finish="2023-11-07T10:39:11.6469678-03:00" />
-  <TestSettings name="default" id="ed50e43d-5f15-409e-a9db-3f17ad62f534">
-    <Deployment runDeploymentRoot="Jhonatan_Medeiros_DESKTOP-8DRS4MO_2023-11-07_10_39_11" />
+<TestRun id="b0a08726-777f-4b79-b3cb-83d6f5ec16e2" name="Jhonatan Medeiros@DESKTOP-8DRS4MO 2023-11-07 13:50:48" runUser="DESKTOP-8DRS4MO\Jhonatan Medeiros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-11-07T13:50:48.2908705-03:00" queuing="2023-11-07T13:50:48.2908705-03:00" start="2023-11-07T13:50:47.8708508-03:00" finish="2023-11-07T13:50:48.2908705-03:00" />
+  <TestSettings name="default" id="02f56105-3336-4692-9ea7-7db35ef553d3">
+    <Deployment runDeploymentRoot="Jhonatan_Medeiros_DESKTOP-8DRS4MO_2023-11-07_13_50_48" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="d9504737-38ba-4273-8350-42c8c8d184d4" testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" testName="FileNameDoesExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0067557" startTime="2023-11-07T10:39:11.5694620-03:00" endTime="2023-11-07T10:39:11.5979832-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9504737-38ba-4273-8350-42c8c8d184d4">
+    <UnitTestResult executionId="93983a49-06f9-4d75-97f2-20799d92970b" testId="8b48ffd8-8c07-5f7b-0eb6-d4aee87d6161" testName="SimulateTimeout" computerName="DESKTOP-8DRS4MO" startTime="2023-11-07T13:50:48.2516704-03:00" endTime="2023-11-07T13:50:48.2520978-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93983a49-06f9-4d75-97f2-20799d92970b">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7ff17cb5-459e-4f6d-8afa-1950b6712ba2" testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" testName="FileNameDoesExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0143074" startTime="2023-11-07T13:50:48.2098339-03:00" endTime="2023-11-07T13:50:48.2453671-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ff17cb5-459e-4f6d-8afa-1950b6712ba2">
       <Output>
         <StdOut>TestContext Messages:
 In MyClassesTest.AssemblyInitCleanup.Assembly&#xD;
@@ -14,9 +17,14 @@ in FileProcessTest.TestInitialize() method&#xD;
  Test Purpose: Check to see if a file exists.
 Test Owner: JhonatanM.&#xD;
 Checking for File: 'C:\Users\Jhonatan Medeiros\AppData\Roaming\TestFile.txt'.</StdOut>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. File C:\Users\Jhonatan Medeiros\AppData\Roaming\TestFile.txta does NOT exist.</Message>
+          <StackTrace>   at MyClassesTest.FileProcessTest.FileNameDoesExist() in C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\FileProcessTest.cs:line 88&#xD;
+</StackTrace>
+        </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="3de833ab-8b6c-48b3-bcc0-1011e387307e" testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" testName="FileNameDoesNotExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001723" startTime="2023-11-07T10:39:11.6029456-03:00" endTime="2023-11-07T10:39:11.6032182-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3de833ab-8b6c-48b3-bcc0-1011e387307e">
+    <UnitTestResult executionId="a31c0810-8988-46ba-b91e-fa25fd8a5f03" testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" testName="FileNameDoesNotExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001791" startTime="2023-11-07T13:50:48.2504067-03:00" endTime="2023-11-07T13:50:48.2507021-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a31c0810-8988-46ba-b91e-fa25fd8a5f03">
       <Output>
         <StdOut>TestContext Messages:
 in FileProcessTest.TestInitialize() method&#xD;
@@ -25,10 +33,7 @@ Test Owner: JhonatanM.&#xD;
 Checking for File: 'C:\NotExists.txt' does NOT exist.</StdOut>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="91db61bc-1971-4e82-8c32-701ae4b1f092" testId="8b48ffd8-8c07-5f7b-0eb6-d4aee87d6161" testName="SimulateTimeout" computerName="DESKTOP-8DRS4MO" startTime="2023-11-07T10:39:11.6047222-03:00" endTime="2023-11-07T10:39:11.6051863-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91db61bc-1971-4e82-8c32-701ae4b1f092">
-      <Output></Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="e7591804-9502-4017-99f9-73069e63f766" testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" testName="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0011298" startTime="2023-11-07T10:39:11.6032837-03:00" endTime="2023-11-07T10:39:11.6044994-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7591804-9502-4017-99f9-73069e63f766">
+    <UnitTestResult executionId="a0ca12a2-90e4-4e74-b997-fc0fd995daa0" testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" testName="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001350" startTime="2023-11-07T13:50:48.2514640-03:00" endTime="2023-11-07T13:50:48.2516512-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0ca12a2-90e4-4e74-b997-fc0fd995daa0">
       <Output>
         <StdOut>TestContext Messages:
 in FileProcessTest.TestInitialize() method&#xD;
@@ -37,7 +42,7 @@ Test Owner: JhonatanM.&#xD;
 Checking for an empty file name.</StdOut>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="c0cb277d-555c-45e1-9da0-579173c4f4c4" testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" testName="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001296" startTime="2023-11-07T10:39:11.6045257-03:00" endTime="2023-11-07T10:39:11.6047033-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0cb277d-555c-45e1-9da0-579173c4f4c4">
+    <UnitTestResult executionId="cf29fe4d-f188-4a99-93f5-6939b20a8174" testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" testName="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0006079" startTime="2023-11-07T13:50:48.2507452-03:00" endTime="2023-11-07T13:50:48.2514400-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf29fe4d-f188-4a99-93f5-6939b20a8174">
       <Output>
         <StdOut>TestContext Messages:
 in FileProcessTest.TestInitialize() method&#xD;
@@ -55,11 +60,11 @@ Checking for an empty file name.</StdOut>
       <TestCategory>
         <TestCategoryItem TestCategory="NoException" />
       </TestCategory>
-      <Execution id="d9504737-38ba-4273-8350-42c8c8d184d4" />
+      <Execution id="7ff17cb5-459e-4f6d-8afa-1950b6712ba2" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesExist" />
     </UnitTest>
     <UnitTest name="SimulateTimeout" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="8b48ffd8-8c07-5f7b-0eb6-d4aee87d6161">
-      <Execution id="91db61bc-1971-4e82-8c32-701ae4b1f092" />
+      <Execution id="93983a49-06f9-4d75-97f2-20799d92970b" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="SimulateTimeout" />
     </UnitTest>
     <UnitTest name="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="1" id="0afa7d29-06f5-3a62-8ce9-439993ab8178">
@@ -69,7 +74,7 @@ Checking for an empty file name.</StdOut>
       <TestCategory>
         <TestCategoryItem TestCategory="Exception" />
       </TestCategory>
-      <Execution id="e7591804-9502-4017-99f9-73069e63f766" />
+      <Execution id="cf29fe4d-f188-4a99-93f5-6939b20a8174" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" />
     </UnitTest>
     <UnitTest name="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="2" id="e40784d4-b509-7b24-dc06-ffcaafa43c7b">
@@ -79,7 +84,7 @@ Checking for an empty file name.</StdOut>
       <TestCategory>
         <TestCategoryItem TestCategory="Exception" />
       </TestCategory>
-      <Execution id="c0cb277d-555c-45e1-9da0-579173c4f4c4" />
+      <Execution id="a0ca12a2-90e4-4e74-b997-fc0fd995daa0" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" />
     </UnitTest>
     <UnitTest name="FileNameDoesNotExist" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="3" id="6f90c9b0-a18c-f05c-3cc2-7cca266a69be">
@@ -89,23 +94,23 @@ Checking for an empty file name.</StdOut>
       <TestCategory>
         <TestCategoryItem TestCategory="NoException" />
       </TestCategory>
-      <Execution id="3de833ab-8b6c-48b3-bcc0-1011e387307e" />
+      <Execution id="a31c0810-8988-46ba-b91e-fa25fd8a5f03" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesNotExist" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" executionId="d9504737-38ba-4273-8350-42c8c8d184d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" executionId="3de833ab-8b6c-48b3-bcc0-1011e387307e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="8b48ffd8-8c07-5f7b-0eb6-d4aee87d6161" executionId="91db61bc-1971-4e82-8c32-701ae4b1f092" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" executionId="e7591804-9502-4017-99f9-73069e63f766" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" executionId="c0cb277d-555c-45e1-9da0-579173c4f4c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b48ffd8-8c07-5f7b-0eb6-d4aee87d6161" executionId="93983a49-06f9-4d75-97f2-20799d92970b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" executionId="7ff17cb5-459e-4f6d-8afa-1950b6712ba2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" executionId="a31c0810-8988-46ba-b91e-fa25fd8a5f03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" executionId="a0ca12a2-90e4-4e74-b997-fc0fd995daa0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" executionId="cf29fe4d-f188-4a99-93f5-6939b20a8174" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
     <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
-  <ResultSummary outcome="Completed">
-    <Counters total="5" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="4" passed="3" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>O teste 'SimulateTimeout' foi ignorado na execução de teste.&#xD;
 </StdOut>
