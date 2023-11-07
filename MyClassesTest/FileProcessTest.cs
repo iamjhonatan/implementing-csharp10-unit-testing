@@ -57,6 +57,13 @@ public class FileProcessTest : TestBase
     #endregion
 
     [TestMethod]
+    [Timeout(3000)]
+    public void SimulateTimeout()
+    {
+        Thread.Sleep(4000);    
+    }
+
+    [TestMethod]
     [Description("Check to see if a file exists")]
     [Owner("JhonatanM")]
     [Priority(3)]

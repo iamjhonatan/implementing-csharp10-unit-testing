@@ -2,10 +2,20 @@
   <body>
     <h1>Test run details</h1>
     <div class="summary">
-      <div class="block"><span>Total tests</span><div class="total-tests">4</div><br></div>
-      <div class="block"><span>Passed  : </span><span class="passedTests">4</span><br><span>Failed  : </span><span class="failedTests">0</span><br><span>Skipped : </span><span class="skippedTests">0</span><br></div>
-      <div class="block"><span>Pass percentage</span><div class="pass-percentage">100 %</div><br></div>
-      <div class="block"><span>Run duration</span><div class="test-run-time">409ms</div><br></div><br></div>
+      <div class="block"><span>Total tests</span><div class="total-tests">5</div><br></div>
+      <div class="block"><span>Passed  : </span><span class="passedTests">4</span><br><span>Failed  : </span><span class="failedTests">1</span><br><span>Skipped : </span><span class="skippedTests">0</span><br></div>
+      <div class="block"><span>Pass percentage</span><div class="pass-percentage">80 %</div><br></div>
+      <div class="block"><span>Run duration</span><div class="test-run-time">3s 373ms</div><br></div><br></div>
+    <h2>Failed Results</h2>
+    <div class="list-row" onclick="ToggleClass('160103615-failedResult')">C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll</div>
+    <div class="inner-row" Id="160103615-failedResult" style="display:block;">
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> SimulateTimeout​</span><div class="duration"><span>3s 6ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>Test 'SimulateTimeout' exceeded execution timeout period.</pre></span><br></div>
+      </div>
+    </div>
     <h2>All Results</h2>
     <div class="list-row" onclick="ToggleClass('160103615')">C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll</div>
     <div class="inner-row" Id="160103615" style="display:none;">
@@ -28,6 +38,12 @@
         <div><span class="pass">✔</span><span> FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException​</span><div class="duration"><span>&lt; 1ms</span><br></div>
         </div>
         <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> SimulateTimeout​</span><div class="duration"><span>3s 6ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>Test 'SimulateTimeout' exceeded execution timeout period.</pre></span><br></div>
       </div>
     </div>
   </body><script language="javascript">
