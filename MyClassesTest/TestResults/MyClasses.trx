@@ -1,12 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="b618c6c4-b478-4f17-957a-617086f0837e" name="Jhonatan Medeiros@DESKTOP-8DRS4MO 2023-11-07 14:45:48" runUser="DESKTOP-8DRS4MO\Jhonatan Medeiros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2023-11-07T14:45:48.2352833-03:00" queuing="2023-11-07T14:45:48.2352833-03:00" start="2023-11-07T14:45:47.8601726-03:00" finish="2023-11-07T14:45:48.2582878-03:00" />
-  <TestSettings name="default" id="e7f64882-36db-43d0-9309-41b49a49242c">
-    <Deployment runDeploymentRoot="Jhonatan_Medeiros_DESKTOP-8DRS4MO_2023-11-07_14_45_48" />
+<TestRun id="4f2e1082-8ec2-40b3-b083-eec4c9d69e79" name="Jhonatan Medeiros@DESKTOP-8DRS4MO 2023-11-07 15:42:46" runUser="DESKTOP-8DRS4MO\Jhonatan Medeiros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-11-07T15:42:46.0454616-03:00" queuing="2023-11-07T15:42:46.0454616-03:00" start="2023-11-07T15:42:45.6593542-03:00" finish="2023-11-07T15:42:46.0694678-03:00" />
+  <TestSettings name="default" id="01d0d528-2e82-45b2-baf8-74f44bb4d291">
+    <Deployment runDeploymentRoot="Jhonatan_Medeiros_DESKTOP-8DRS4MO_2023-11-07_15_42_46" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="b9b359e7-ed42-419c-8a67-bea79232f330" testId="7b60a29a-57ad-fdf1-b839-f70b4a1c1c9b" testName="AreStringsEqualTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0002081" startTime="2023-11-07T14:45:48.2061751-03:00" endTime="2023-11-07T14:45:48.2064221-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9b359e7-ed42-419c-8a67-bea79232f330" />
-    <UnitTestResult executionId="9b27386b-db41-4c64-838a-a8797690a423" testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" testName="FileNameDoesExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0040044" startTime="2023-11-07T14:45:48.2066507-03:00" endTime="2023-11-07T14:45:48.2111167-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b27386b-db41-4c64-838a-a8797690a423">
+    <UnitTestResult executionId="6bb4c78c-6825-4e04-a9ee-25d5e2e763c8" testId="493d7b7e-df7b-d5f9-2de8-9a463daf289c" testName="StartsWithTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001295" startTime="2023-11-07T15:42:46.0496127-03:00" endTime="2023-11-07T15:42:46.0497842-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bb4c78c-6825-4e04-a9ee-25d5e2e763c8" />
+    <UnitTestResult executionId="438cbb5c-4008-4356-8fde-168b838749e8" testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" testName="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0011419" startTime="2023-11-07T15:42:46.0447625-03:00" endTime="2023-11-07T15:42:46.0459822-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="438cbb5c-4008-4356-8fde-168b838749e8">
+      <Output>
+        <StdOut>TestContext Messages:
+in FileProcessTest.TestInitialize() method&#xD;
+ Test Purpose: Check for a thrown ArgumentNullException using ExpectedException.
+Test Owner: JhonatanM.&#xD;
+Checking for an empty file name.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9414a463-49c0-44cf-81e9-b8d7d0537ecf" testId="a0fd5671-8411-889a-9314-90c3081cc28f" testName="IsNullTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001472" startTime="2023-11-07T15:42:46.0476317-03:00" endTime="2023-11-07T15:42:46.0478175-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9414a463-49c0-44cf-81e9-b8d7d0537ecf" />
+    <UnitTestResult executionId="75c20da4-619f-49c9-ac62-49823c9074aa" testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" testName="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001276" startTime="2023-11-07T15:42:46.0460085-03:00" endTime="2023-11-07T15:42:46.0461831-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75c20da4-619f-49c9-ac62-49823c9074aa">
+      <Output>
+        <StdOut>TestContext Messages:
+in FileProcessTest.TestInitialize() method&#xD;
+ Test Purpose: Check for a thrown ArgumentNullException using ExpectedException.
+Test Owner: JhonatanM.&#xD;
+Checking for an empty file name.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cf1b7e86-ac05-434c-93c5-54f31c642704" testId="d249ae36-c5a8-7760-ec6a-9aff2ca54f8c" testName="IsAllLowerCaseTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0002238" startTime="2023-11-07T15:42:46.0490606-03:00" endTime="2023-11-07T15:42:46.0493275-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf1b7e86-ac05-434c-93c5-54f31c642704" />
+    <UnitTestResult executionId="664be4cf-b7e9-4781-8e7f-7c6d47ff4f7f" testId="1c9dff2c-341b-c00c-e0a5-7a65188e51ea" testName="AreCollectionsEqualTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0014895" startTime="2023-11-07T15:42:46.0165618-03:00" endTime="2023-11-07T15:42:46.0181486-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="664be4cf-b7e9-4781-8e7f-7c6d47ff4f7f" />
+    <UnitTestResult executionId="46f1276a-2b79-49f8-81d2-1029a15b5677" testId="43303f6c-43eb-037f-ca5d-af21856519cc" testName="AreSameTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001336" startTime="2023-11-07T15:42:46.0469578-03:00" endTime="2023-11-07T15:42:46.0471342-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46f1276a-2b79-49f8-81d2-1029a15b5677" />
+    <UnitTestResult executionId="bd14dfdc-77b1-4616-b9a9-31f8935a945e" testId="ae609710-540d-4177-3b0d-c403af3e4c32" testName="AreStringsNotequalTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0000827" startTime="2023-11-07T15:42:46.0163562-03:00" endTime="2023-11-07T15:42:46.0165426-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd14dfdc-77b1-4616-b9a9-31f8935a945e" />
+    <UnitTestResult executionId="49031c82-6fee-4442-b699-47d3abf17697" testId="0879e1d7-37ec-baae-5799-be359437284a" testName="AreCollectionsNotEqual" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0002114" startTime="2023-11-07T15:42:46.0188487-03:00" endTime="2023-11-07T15:42:46.0191069-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49031c82-6fee-4442-b699-47d3abf17697" />
+    <UnitTestResult executionId="1686fe41-8d34-4e00-8834-4004d2695592" testId="7b60a29a-57ad-fdf1-b839-f70b4a1c1c9b" testName="AreStringsEqualTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0002118" startTime="2023-11-07T15:42:46.0160886-03:00" endTime="2023-11-07T15:42:46.0163391-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1686fe41-8d34-4e00-8834-4004d2695592" />
+    <UnitTestResult executionId="7d54b563-6f0b-49c8-8aef-5b1100539a2e" testId="7f83ca3a-7635-69e1-50de-412fcffcc02c" testName="AreStringsEqualCaseInsensitiveTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0002440" startTime="2023-11-07T15:42:46.0157831-03:00" endTime="2023-11-07T15:42:46.0160664-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d54b563-6f0b-49c8-8aef-5b1100539a2e" />
+    <UnitTestResult executionId="7a0bb747-0afd-4f45-9810-a5e6eecd9916" testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" testName="FileNameDoesNotExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001684" startTime="2023-11-07T15:42:46.0444660-03:00" endTime="2023-11-07T15:42:46.0447202-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a0bb747-0afd-4f45-9810-a5e6eecd9916">
+      <Output>
+        <StdOut>TestContext Messages:
+in FileProcessTest.TestInitialize() method&#xD;
+ Test Purpose: Check to see if file does not exist.
+Test Owner: JhonatanM.&#xD;
+Checking for File: 'C:\NotExists.txt' does NOT exist.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f5a8f4f2-ab9c-4ffc-b5de-26d4d9b0f941" testId="7defa3ef-4072-1146-2676-6f6a26525812" testName="IsNotAllLowerCaseTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001715" startTime="2023-11-07T15:42:46.0493465-03:00" endTime="2023-11-07T15:42:46.0495701-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5a8f4f2-ab9c-4ffc-b5de-26d4d9b0f941" />
+    <UnitTestResult executionId="f64bbd43-7fa6-46d2-b7fb-79a72bc27ee9" testId="329f17bf-5afb-dd86-9822-1b3c4938b93f" testName="AreNotSameTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001296" startTime="2023-11-07T15:42:46.0466954-03:00" endTime="2023-11-07T15:42:46.0469282-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f64bbd43-7fa6-46d2-b7fb-79a72bc27ee9" />
+    <UnitTestResult executionId="f773cd6e-40e4-457d-98a4-62d99b36bbe5" testId="8b48ffd8-8c07-5f7b-0eb6-d4aee87d6161" testName="SimulateTimeout" computerName="DESKTOP-8DRS4MO" startTime="2023-11-07T15:42:46.0462021-03:00" endTime="2023-11-07T15:42:46.0466761-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f773cd6e-40e4-457d-98a4-62d99b36bbe5">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f0f2af0-a61d-4bde-b965-666308027d48" testId="6b43e93e-f120-06d2-4b03-fb6b542abd9d" testName="AreCollectionsEqualTestNumbers" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0006065" startTime="2023-11-07T15:42:46.0181717-03:00" endTime="2023-11-07T15:42:46.0188267-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f0f2af0-a61d-4bde-b965-666308027d48" />
+    <UnitTestResult executionId="7f997cac-0129-4d39-a513-ede483708306" testId="a8ec7669-05fa-c09b-dc1e-ee93d72cc232" testName="AreNumbersNotEqualTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001677" startTime="2023-11-07T15:42:46.0155016-03:00" endTime="2023-11-07T15:42:46.0157376-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f997cac-0129-4d39-a513-ede483708306" />
+    <UnitTestResult executionId="84caa597-0ebb-4760-b16d-a1114218ece3" testId="349405bd-15be-dc46-9591-e9ec7696e12d" testName="IsInstanceOfTypeTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0004119" startTime="2023-11-07T15:42:46.0471514-03:00" endTime="2023-11-07T15:42:46.0476137-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84caa597-0ebb-4760-b16d-a1114218ece3" />
+    <UnitTestResult executionId="529e53f9-3735-4b0a-96a2-2a4cdb6e687b" testId="0a89b42c-c480-e003-024c-22e7e8602f9e" testName="ContainsTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001967" startTime="2023-11-07T15:42:46.0478345-03:00" endTime="2023-11-07T15:42:46.0481172-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="529e53f9-3735-4b0a-96a2-2a4cdb6e687b" />
+    <UnitTestResult executionId="fa45827c-f600-4747-894a-bb6def943e6c" testId="402f6b20-fb4a-3def-4f56-b587cedd1a5a" testName="AreNumbersEqualTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0022922" startTime="2023-11-07T15:42:45.9875109-03:00" endTime="2023-11-07T15:42:46.0106698-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa45827c-f600-4747-894a-bb6def943e6c">
+      <Output>
+        <StdOut>TestContext Messages:
+In MyClassesTest.AssemblyInitCleanup.Assembly</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cad6a9f1-78ff-45b0-a05b-ba26703dce20" testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" testName="FileNameDoesExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0036569" startTime="2023-11-07T15:42:46.0191270-03:00" endTime="2023-11-07T15:42:46.0232429-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cad6a9f1-78ff-45b0-a05b-ba26703dce20">
       <Output>
         <StdOut>TestContext Messages:
 In FileProcessTest.ClassInitialize() method&#xD;
@@ -16,57 +66,10 @@ Test Owner: JhonatanM.&#xD;
 Checking for File: 'C:\Users\Jhonatan Medeiros\AppData\Roaming\TestFile.txt'.</StdOut>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="ab63efbd-49bc-42c1-947f-37ebb8c88a07" testId="349405bd-15be-dc46-9591-e9ec7696e12d" testName="IsInstanceOfTypeTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0003256" startTime="2023-11-07T14:45:48.2350637-03:00" endTime="2023-11-07T14:45:48.2354272-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab63efbd-49bc-42c1-947f-37ebb8c88a07" />
-    <UnitTestResult executionId="cd5ff0fb-56d3-4621-a04a-57d335e692fc" testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" testName="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001234" startTime="2023-11-07T14:45:48.2126464-03:00" endTime="2023-11-07T14:45:48.2128174-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd5ff0fb-56d3-4621-a04a-57d335e692fc">
-      <Output>
-        <StdOut>TestContext Messages:
-in FileProcessTest.TestInitialize() method&#xD;
- Test Purpose: Check for a thrown ArgumentNullException using ExpectedException.
-Test Owner: JhonatanM.&#xD;
-Checking for an empty file name.</StdOut>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="ea1fe0b4-f408-411d-b063-86b1c9b8324b" testId="8b48ffd8-8c07-5f7b-0eb6-d4aee87d6161" testName="SimulateTimeout" computerName="DESKTOP-8DRS4MO" startTime="2023-11-07T14:45:48.2340872-03:00" endTime="2023-11-07T14:45:48.2345273-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea1fe0b4-f408-411d-b063-86b1c9b8324b">
-      <Output></Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="3f3d5e3b-aaba-46c8-bc3f-2845fed5f180" testId="7f83ca3a-7635-69e1-50de-412fcffcc02c" testName="AreStringsEqualCaseInsensitiveTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0002535" startTime="2023-11-07T14:45:48.2058634-03:00" endTime="2023-11-07T14:45:48.2061572-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f3d5e3b-aaba-46c8-bc3f-2845fed5f180" />
-    <UnitTestResult executionId="ec1981a6-e51d-4217-881e-9455b663dfcf" testId="d249ae36-c5a8-7760-ec6a-9aff2ca54f8c" testName="IsAllLowerCaseTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0006109" startTime="2023-11-07T14:45:48.2359927-03:00" endTime="2023-11-07T14:45:48.2366475-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec1981a6-e51d-4217-881e-9455b663dfcf" />
-    <UnitTestResult executionId="f85f7bd1-247f-4a06-97fc-033e33c164c8" testId="0a89b42c-c480-e003-024c-22e7e8602f9e" testName="ContainsTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0002070" startTime="2023-11-07T14:45:48.2356710-03:00" endTime="2023-11-07T14:45:48.2359705-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f85f7bd1-247f-4a06-97fc-033e33c164c8" />
-    <UnitTestResult executionId="85a50f05-5448-4017-9906-0b9efa37a359" testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" testName="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0011023" startTime="2023-11-07T14:45:48.2114092-03:00" endTime="2023-11-07T14:45:48.2126201-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85a50f05-5448-4017-9906-0b9efa37a359">
-      <Output>
-        <StdOut>TestContext Messages:
-in FileProcessTest.TestInitialize() method&#xD;
- Test Purpose: Check for a thrown ArgumentNullException using ExpectedException.
-Test Owner: JhonatanM.&#xD;
-Checking for an empty file name.</StdOut>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="22b2ef60-e9be-4689-ab6b-55256f3659d1" testId="329f17bf-5afb-dd86-9822-1b3c4938b93f" testName="AreNotSameTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001856" startTime="2023-11-07T14:45:48.2345609-03:00" endTime="2023-11-07T14:45:48.2348594-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22b2ef60-e9be-4689-ab6b-55256f3659d1" />
-    <UnitTestResult executionId="9b8d76ed-2786-4046-bd87-57f0301de47d" testId="ae609710-540d-4177-3b0d-c403af3e4c32" testName="AreStringsNotequalTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0000824" startTime="2023-11-07T14:45:48.2064431-03:00" endTime="2023-11-07T14:45:48.2066287-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b8d76ed-2786-4046-bd87-57f0301de47d" />
-    <UnitTestResult executionId="63e6d8a4-7d70-4b10-9ecc-e47eb252cee1" testId="a8ec7669-05fa-c09b-dc1e-ee93d72cc232" testName="AreNumbersNotEqualTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001627" startTime="2023-11-07T14:45:48.2055867-03:00" endTime="2023-11-07T14:45:48.2058166-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63e6d8a4-7d70-4b10-9ecc-e47eb252cee1" />
-    <UnitTestResult executionId="13998b2e-4f28-478e-9863-bd213e9b0ab2" testId="7defa3ef-4072-1146-2676-6f6a26525812" testName="IsNotAllLowerCaseTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001428" startTime="2023-11-07T14:45:48.2366714-03:00" endTime="2023-11-07T14:45:48.2368547-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13998b2e-4f28-478e-9863-bd213e9b0ab2" />
-    <UnitTestResult executionId="98051e2f-4f90-48e7-9544-d98f62619c90" testId="402f6b20-fb4a-3def-4f56-b587cedd1a5a" testName="AreNumbersEqualTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0022746" startTime="2023-11-07T14:45:48.1778530-03:00" endTime="2023-11-07T14:45:48.2007816-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98051e2f-4f90-48e7-9544-d98f62619c90">
-      <Output>
-        <StdOut>TestContext Messages:
-In MyClassesTest.AssemblyInitCleanup.Assembly</StdOut>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="e2e19c3b-88a5-42de-8b02-d516061393ec" testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" testName="FileNameDoesNotExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001710" startTime="2023-11-07T14:45:48.2111456-03:00" endTime="2023-11-07T14:45:48.2113746-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2e19c3b-88a5-42de-8b02-d516061393ec">
-      <Output>
-        <StdOut>TestContext Messages:
-in FileProcessTest.TestInitialize() method&#xD;
- Test Purpose: Check to see if file does not exist.
-Test Owner: JhonatanM.&#xD;
-Checking for File: 'C:\NotExists.txt' does NOT exist.</StdOut>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="bad89bce-43d8-4551-8a76-0f88789dc936" testId="43303f6c-43eb-037f-ca5d-af21856519cc" testName="AreSameTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001193" startTime="2023-11-07T14:45:48.2348807-03:00" endTime="2023-11-07T14:45:48.2350416-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bad89bce-43d8-4551-8a76-0f88789dc936" />
-    <UnitTestResult executionId="16dc4836-dd63-49d7-95cc-c6326443ab85" testId="a0fd5671-8411-889a-9314-90c3081cc28f" testName="IsNullTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001660" startTime="2023-11-07T14:45:48.2354449-03:00" endTime="2023-11-07T14:45:48.2356531-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16dc4836-dd63-49d7-95cc-c6326443ab85" />
-    <UnitTestResult executionId="ffb56b0c-d7ce-49ae-bb62-54a52714263c" testId="493d7b7e-df7b-d5f9-2de8-9a463daf289c" testName="StartsWithTest" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001322" startTime="2023-11-07T14:45:48.2368724-03:00" endTime="2023-11-07T14:45:48.2370431-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffb56b0c-d7ce-49ae-bb62-54a52714263c" />
   </Results>
   <TestDefinitions>
     <UnitTest name="AreSameTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="43303f6c-43eb-037f-ca5d-af21856519cc">
-      <Execution id="bad89bce-43d8-4551-8a76-0f88789dc936" />
+      <Execution id="46f1276a-2b79-49f8-81d2-1029a15b5677" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.ObjectTypeTest" name="AreSameTest" />
     </UnitTest>
     <UnitTest name="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="2" id="e40784d4-b509-7b24-dc06-ffcaafa43c7b">
@@ -76,40 +79,36 @@ Checking for File: 'C:\NotExists.txt' does NOT exist.</StdOut>
       <TestCategory>
         <TestCategoryItem TestCategory="Exception" />
       </TestCategory>
-      <Execution id="cd5ff0fb-56d3-4621-a04a-57d335e692fc" />
+      <Execution id="75c20da4-619f-49c9-ac62-49823c9074aa" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" />
     </UnitTest>
     <UnitTest name="AreStringsNotequalTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="ae609710-540d-4177-3b0d-c403af3e4c32">
-      <Execution id="9b8d76ed-2786-4046-bd87-57f0301de47d" />
+      <Execution id="bd14dfdc-77b1-4616-b9a9-31f8935a945e" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.AssertEqualityTest" name="AreStringsNotequalTest" />
     </UnitTest>
     <UnitTest name="AreStringsEqualTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="7b60a29a-57ad-fdf1-b839-f70b4a1c1c9b">
-      <Execution id="b9b359e7-ed42-419c-8a67-bea79232f330" />
+      <Execution id="1686fe41-8d34-4e00-8834-4004d2695592" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.AssertEqualityTest" name="AreStringsEqualTest" />
     </UnitTest>
     <UnitTest name="StartsWithTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="493d7b7e-df7b-d5f9-2de8-9a463daf289c">
-      <Execution id="ffb56b0c-d7ce-49ae-bb62-54a52714263c" />
+      <Execution id="6bb4c78c-6825-4e04-a9ee-25d5e2e763c8" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.StringAssertClassTest" name="StartsWithTest" />
     </UnitTest>
     <UnitTest name="SimulateTimeout" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="8b48ffd8-8c07-5f7b-0eb6-d4aee87d6161">
-      <Execution id="ea1fe0b4-f408-411d-b063-86b1c9b8324b" />
+      <Execution id="f773cd6e-40e4-457d-98a4-62d99b36bbe5" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="SimulateTimeout" />
     </UnitTest>
     <UnitTest name="IsNotAllLowerCaseTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="7defa3ef-4072-1146-2676-6f6a26525812">
-      <Execution id="13998b2e-4f28-478e-9863-bd213e9b0ab2" />
+      <Execution id="f5a8f4f2-ab9c-4ffc-b5de-26d4d9b0f941" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.StringAssertClassTest" name="IsNotAllLowerCaseTest" />
     </UnitTest>
     <UnitTest name="ContainsTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="0a89b42c-c480-e003-024c-22e7e8602f9e">
-      <Execution id="f85f7bd1-247f-4a06-97fc-033e33c164c8" />
+      <Execution id="529e53f9-3735-4b0a-96a2-2a4cdb6e687b" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.StringAssertClassTest" name="ContainsTest" />
     </UnitTest>
     <UnitTest name="AreNumbersNotEqualTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="a8ec7669-05fa-c09b-dc1e-ee93d72cc232">
-      <Execution id="63e6d8a4-7d70-4b10-9ecc-e47eb252cee1" />
+      <Execution id="7f997cac-0129-4d39-a513-ede483708306" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.AssertEqualityTest" name="AreNumbersNotEqualTest" />
-    </UnitTest>
-    <UnitTest name="IsInstanceOfTypeTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="349405bd-15be-dc46-9591-e9ec7696e12d">
-      <Execution id="ab63efbd-49bc-42c1-947f-37ebb8c88a07" />
-      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.ObjectTypeTest" name="IsInstanceOfTypeTest" />
     </UnitTest>
     <UnitTest name="FileNameDoesNotExist" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="3" id="6f90c9b0-a18c-f05c-3cc2-7cca266a69be">
       <Owners>
@@ -118,8 +117,12 @@ Checking for File: 'C:\NotExists.txt' does NOT exist.</StdOut>
       <TestCategory>
         <TestCategoryItem TestCategory="NoException" />
       </TestCategory>
-      <Execution id="e2e19c3b-88a5-42de-8b02-d516061393ec" />
+      <Execution id="7a0bb747-0afd-4f45-9810-a5e6eecd9916" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesNotExist" />
+    </UnitTest>
+    <UnitTest name="IsInstanceOfTypeTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="349405bd-15be-dc46-9591-e9ec7696e12d">
+      <Execution id="84caa597-0ebb-4760-b16d-a1114218ece3" />
+      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.ObjectTypeTest" name="IsInstanceOfTypeTest" />
     </UnitTest>
     <UnitTest name="FileNameDoesExist" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="3" id="928aa985-ca73-c448-5d8b-b6e6f1f3a744">
       <Owners>
@@ -128,15 +131,15 @@ Checking for File: 'C:\NotExists.txt' does NOT exist.</StdOut>
       <TestCategory>
         <TestCategoryItem TestCategory="NoException" />
       </TestCategory>
-      <Execution id="9b27386b-db41-4c64-838a-a8797690a423" />
+      <Execution id="cad6a9f1-78ff-45b0-a05b-ba26703dce20" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesExist" />
     </UnitTest>
     <UnitTest name="IsAllLowerCaseTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="d249ae36-c5a8-7760-ec6a-9aff2ca54f8c">
-      <Execution id="ec1981a6-e51d-4217-881e-9455b663dfcf" />
+      <Execution id="cf1b7e86-ac05-434c-93c5-54f31c642704" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.StringAssertClassTest" name="IsAllLowerCaseTest" />
     </UnitTest>
     <UnitTest name="AreStringsEqualCaseInsensitiveTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="7f83ca3a-7635-69e1-50de-412fcffcc02c">
-      <Execution id="3f3d5e3b-aaba-46c8-bc3f-2845fed5f180" />
+      <Execution id="7d54b563-6f0b-49c8-8aef-5b1100539a2e" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.AssertEqualityTest" name="AreStringsEqualCaseInsensitiveTest" />
     </UnitTest>
     <UnitTest name="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="1" id="0afa7d29-06f5-3a62-8ce9-439993ab8178">
@@ -146,48 +149,63 @@ Checking for File: 'C:\NotExists.txt' does NOT exist.</StdOut>
       <TestCategory>
         <TestCategoryItem TestCategory="Exception" />
       </TestCategory>
-      <Execution id="85a50f05-5448-4017-9906-0b9efa37a359" />
+      <Execution id="438cbb5c-4008-4356-8fde-168b838749e8" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" />
     </UnitTest>
     <UnitTest name="IsNullTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="a0fd5671-8411-889a-9314-90c3081cc28f">
-      <Execution id="16dc4836-dd63-49d7-95cc-c6326443ab85" />
+      <Execution id="9414a463-49c0-44cf-81e9-b8d7d0537ecf" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.ObjectTypeTest" name="IsNullTest" />
     </UnitTest>
     <UnitTest name="AreNumbersEqualTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="402f6b20-fb4a-3def-4f56-b587cedd1a5a">
-      <Execution id="98051e2f-4f90-48e7-9544-d98f62619c90" />
+      <Execution id="fa45827c-f600-4747-894a-bb6def943e6c" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.AssertEqualityTest" name="AreNumbersEqualTest" />
     </UnitTest>
+    <UnitTest name="AreCollectionsEqualTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="1c9dff2c-341b-c00c-e0a5-7a65188e51ea">
+      <Execution id="664be4cf-b7e9-4781-8e7f-7c6d47ff4f7f" />
+      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.CollectionAssertClassTest" name="AreCollectionsEqualTest" />
+    </UnitTest>
     <UnitTest name="AreNotSameTest" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="329f17bf-5afb-dd86-9822-1b3c4938b93f">
-      <Execution id="22b2ef60-e9be-4689-ab6b-55256f3659d1" />
+      <Execution id="f64bbd43-7fa6-46d2-b7fb-79a72bc27ee9" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.ObjectTypeTest" name="AreNotSameTest" />
+    </UnitTest>
+    <UnitTest name="AreCollectionsNotEqual" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="0879e1d7-37ec-baae-5799-be359437284a">
+      <Execution id="49031c82-6fee-4442-b699-47d3abf17697" />
+      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.CollectionAssertClassTest" name="AreCollectionsNotEqual" />
+    </UnitTest>
+    <UnitTest name="AreCollectionsEqualTestNumbers" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="6b43e93e-f120-06d2-4b03-fb6b542abd9d">
+      <Execution id="6f0f2af0-a61d-4bde-b965-666308027d48" />
+      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.CollectionAssertClassTest" name="AreCollectionsEqualTestNumbers" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="7b60a29a-57ad-fdf1-b839-f70b4a1c1c9b" executionId="b9b359e7-ed42-419c-8a67-bea79232f330" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" executionId="9b27386b-db41-4c64-838a-a8797690a423" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="349405bd-15be-dc46-9591-e9ec7696e12d" executionId="ab63efbd-49bc-42c1-947f-37ebb8c88a07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" executionId="cd5ff0fb-56d3-4621-a04a-57d335e692fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="8b48ffd8-8c07-5f7b-0eb6-d4aee87d6161" executionId="ea1fe0b4-f408-411d-b063-86b1c9b8324b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="7f83ca3a-7635-69e1-50de-412fcffcc02c" executionId="3f3d5e3b-aaba-46c8-bc3f-2845fed5f180" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="d249ae36-c5a8-7760-ec6a-9aff2ca54f8c" executionId="ec1981a6-e51d-4217-881e-9455b663dfcf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="0a89b42c-c480-e003-024c-22e7e8602f9e" executionId="f85f7bd1-247f-4a06-97fc-033e33c164c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" executionId="85a50f05-5448-4017-9906-0b9efa37a359" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="329f17bf-5afb-dd86-9822-1b3c4938b93f" executionId="22b2ef60-e9be-4689-ab6b-55256f3659d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="ae609710-540d-4177-3b0d-c403af3e4c32" executionId="9b8d76ed-2786-4046-bd87-57f0301de47d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="a8ec7669-05fa-c09b-dc1e-ee93d72cc232" executionId="63e6d8a4-7d70-4b10-9ecc-e47eb252cee1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="7defa3ef-4072-1146-2676-6f6a26525812" executionId="13998b2e-4f28-478e-9863-bd213e9b0ab2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="402f6b20-fb4a-3def-4f56-b587cedd1a5a" executionId="98051e2f-4f90-48e7-9544-d98f62619c90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" executionId="e2e19c3b-88a5-42de-8b02-d516061393ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="43303f6c-43eb-037f-ca5d-af21856519cc" executionId="bad89bce-43d8-4551-8a76-0f88789dc936" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="a0fd5671-8411-889a-9314-90c3081cc28f" executionId="16dc4836-dd63-49d7-95cc-c6326443ab85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="493d7b7e-df7b-d5f9-2de8-9a463daf289c" executionId="ffb56b0c-d7ce-49ae-bb62-54a52714263c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="493d7b7e-df7b-d5f9-2de8-9a463daf289c" executionId="6bb4c78c-6825-4e04-a9ee-25d5e2e763c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" executionId="438cbb5c-4008-4356-8fde-168b838749e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0fd5671-8411-889a-9314-90c3081cc28f" executionId="9414a463-49c0-44cf-81e9-b8d7d0537ecf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" executionId="75c20da4-619f-49c9-ac62-49823c9074aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d249ae36-c5a8-7760-ec6a-9aff2ca54f8c" executionId="cf1b7e86-ac05-434c-93c5-54f31c642704" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c9dff2c-341b-c00c-e0a5-7a65188e51ea" executionId="664be4cf-b7e9-4781-8e7f-7c6d47ff4f7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43303f6c-43eb-037f-ca5d-af21856519cc" executionId="46f1276a-2b79-49f8-81d2-1029a15b5677" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae609710-540d-4177-3b0d-c403af3e4c32" executionId="bd14dfdc-77b1-4616-b9a9-31f8935a945e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0879e1d7-37ec-baae-5799-be359437284a" executionId="49031c82-6fee-4442-b699-47d3abf17697" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b60a29a-57ad-fdf1-b839-f70b4a1c1c9b" executionId="1686fe41-8d34-4e00-8834-4004d2695592" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f83ca3a-7635-69e1-50de-412fcffcc02c" executionId="7d54b563-6f0b-49c8-8aef-5b1100539a2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" executionId="7a0bb747-0afd-4f45-9810-a5e6eecd9916" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7defa3ef-4072-1146-2676-6f6a26525812" executionId="f5a8f4f2-ab9c-4ffc-b5de-26d4d9b0f941" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="329f17bf-5afb-dd86-9822-1b3c4938b93f" executionId="f64bbd43-7fa6-46d2-b7fb-79a72bc27ee9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b48ffd8-8c07-5f7b-0eb6-d4aee87d6161" executionId="f773cd6e-40e4-457d-98a4-62d99b36bbe5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b43e93e-f120-06d2-4b03-fb6b542abd9d" executionId="6f0f2af0-a61d-4bde-b965-666308027d48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8ec7669-05fa-c09b-dc1e-ee93d72cc232" executionId="7f997cac-0129-4d39-a513-ede483708306" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="349405bd-15be-dc46-9591-e9ec7696e12d" executionId="84caa597-0ebb-4760-b16d-a1114218ece3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a89b42c-c480-e003-024c-22e7e8602f9e" executionId="529e53f9-3735-4b0a-96a2-2a4cdb6e687b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="402f6b20-fb4a-3def-4f56-b587cedd1a5a" executionId="fa45827c-f600-4747-894a-bb6def943e6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" executionId="cad6a9f1-78ff-45b0-a05b-ba26703dce20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
     <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <ResultSummary outcome="Completed">
-    <Counters total="18" executed="17" passed="17" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Counters total="21" executed="20" passed="20" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>O teste 'SimulateTimeout' foi ignorado na execução de teste.&#xD;
 </StdOut>
