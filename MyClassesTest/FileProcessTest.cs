@@ -65,6 +65,29 @@ public class FileProcessTest : TestBase
     }
 
     [TestMethod]
+    [DeploymentItem("FileToDeploy.txt")]
+    [Description("Check to see if a file exists using the [DeploymentItem] attribute.")]
+    [Owner("JhonatanM")]
+    [Priority(3)]
+    [TestCategory("NoException")]
+    public void FileNameDoesExistUsingDeploymentItem()
+    {
+        // Arrange
+        FileProcess fileProcess = new();
+        FileName = "FileToDeploy.txt";
+        bool fromCall;
+
+        // Add Messages to Test Output
+        WriteOutput($"Checking for File: '{FileName}' in folder '{TestContext?.DeploymentDirectory}'");
+
+        // Act
+        fromCall = fileProcess.FileExists(FileName);
+
+        // Assert
+        Assert.IsTrue(fromCall, "File {0} does NOT exist.", FileName);
+    }
+
+    [TestMethod]
     [Description("Check to see if a file exists")]
     [Owner("JhonatanM")]
     [Priority(3)]

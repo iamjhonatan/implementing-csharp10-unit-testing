@@ -100,3 +100,4 @@ C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\obj\Debug\net6.0
 C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\obj\Debug\net6.0\MyClassesTest.pdb
 C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\obj\Debug\net6.0\MyClassesTest.genruntimeconfig.cache
 C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\obj\Debug\net6.0\ref\MyClassesTest.dll
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileToDeploy.txt
