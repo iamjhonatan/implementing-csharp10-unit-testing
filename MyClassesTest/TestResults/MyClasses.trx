@@ -1,59 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="2707a211-3e7f-44d4-b11e-61f29918774e" name="Jhonatan Medeiros@DESKTOP-8DRS4MO 2023-11-07 08:54:32" runUser="DESKTOP-8DRS4MO\Jhonatan Medeiros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2023-11-07T08:54:32.6349846-03:00" queuing="2023-11-07T08:54:32.6349846-03:00" start="2023-11-07T08:54:32.1362372-03:00" finish="2023-11-07T08:54:32.6640332-03:00" />
-  <TestSettings name="default" id="f16ad9ff-c8a9-4ac8-b02d-508b360caa7b">
-    <Deployment runDeploymentRoot="Jhonatan_Medeiros_DESKTOP-8DRS4MO_2023-11-07_08_54_32" />
+<TestRun id="bbfd2316-3fb8-4b51-848c-3846836b6b74" name="Jhonatan Medeiros@DESKTOP-8DRS4MO 2023-11-07 09:05:35" runUser="DESKTOP-8DRS4MO\Jhonatan Medeiros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-11-07T09:05:35.1273454-03:00" queuing="2023-11-07T09:05:35.1273454-03:00" start="2023-11-07T09:05:34.7316359-03:00" finish="2023-11-07T09:05:35.1283468-03:00" />
+  <TestSettings name="default" id="c24a0d91-f574-4042-a56c-86cb8721f9ca">
+    <Deployment runDeploymentRoot="Jhonatan_Medeiros_DESKTOP-8DRS4MO_2023-11-07_09_05_35" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="93072766-8524-4619-a0be-6e2c27b78e8e" testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" testName="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0119311" startTime="2023-11-07T08:54:32.5457300-03:00" endTime="2023-11-07T08:54:32.5577365-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93072766-8524-4619-a0be-6e2c27b78e8e">
-      <Output>
-        <StdOut>TestContext Messages:
-Checking for an empty file name.</StdOut>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="66da3dc0-035a-4796-b3a3-2074836bbd83" testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" testName="FileNameDoesExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0059723" startTime="2023-11-07T08:54:32.5116009-03:00" endTime="2023-11-07T08:54:32.5402447-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66da3dc0-035a-4796-b3a3-2074836bbd83">
-      <Output>
-        <StdOut>TestContext Messages:
-In MyClassesTest.AssemblyInitCleanup.Assembly&#xD;
-Checking for File: 'C:\Users\Jhonatan Medeiros\AppData\Roaming\TestFile.txt'.</StdOut>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="ea5d3a01-0ebd-4ed0-9035-ca71e6611295" testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" testName="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001459" startTime="2023-11-07T08:54:32.5577668-03:00" endTime="2023-11-07T08:54:32.5580545-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea5d3a01-0ebd-4ed0-9035-ca71e6611295">
-      <Output>
-        <StdOut>TestContext Messages:
-Checking for an empty file name.</StdOut>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="f9afc862-5a32-44b6-819d-f36f45af30f4" testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" testName="FileNameDoesNotExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001521" startTime="2023-11-07T08:54:32.5454645-03:00" endTime="2023-11-07T08:54:32.5456929-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9afc862-5a32-44b6-819d-f36f45af30f4">
+    <UnitTestResult executionId="18e09c9e-91c6-49ce-b424-64c19b82fff5" testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" testName="FileNameDoesNotExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001746" startTime="2023-11-07T09:05:35.0857870-03:00" endTime="2023-11-07T09:05:35.0860896-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18e09c9e-91c6-49ce-b424-64c19b82fff5">
       <Output>
         <StdOut>TestContext Messages:
 Checking for File: 'C:\NotExists.txt' does NOT exist.</StdOut>
       </Output>
     </UnitTestResult>
+    <UnitTestResult executionId="68f136d1-2a92-4901-9ce5-3561ee784e43" testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" testName="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0013617" startTime="2023-11-07T09:05:35.0861295-03:00" endTime="2023-11-07T09:05:35.0876093-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68f136d1-2a92-4901-9ce5-3561ee784e43">
+      <Output>
+        <StdOut>TestContext Messages:
+Checking for an empty file name.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c255e187-bdf8-4c8d-9a20-07712d001ebe" testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" testName="FileNameDoesExist" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0057786" startTime="2023-11-07T09:05:35.0526898-03:00" endTime="2023-11-07T09:05:35.0806180-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c255e187-bdf8-4c8d-9a20-07712d001ebe">
+      <Output>
+        <StdOut>TestContext Messages:
+In MyClassesTest.AssemblyInitCleanup.Assembly&#xD;
+In FileProcessTest.ClassInitialize() method&#xD;
+Checking for File: 'C:\Users\Jhonatan Medeiros\AppData\Roaming\TestFile.txt'.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="25195d6d-51ad-4649-914d-6442b3523b7b" testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" testName="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001208" startTime="2023-11-07T09:05:35.0876333-03:00" endTime="2023-11-07T09:05:35.0880077-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25195d6d-51ad-4649-914d-6442b3523b7b">
+      <Output>
+        <StdOut>TestContext Messages:
+Checking for an empty file name.</StdOut>
+      </Output>
+    </UnitTestResult>
   </Results>
   <TestDefinitions>
     <UnitTest name="FileNameDoesExist" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="928aa985-ca73-c448-5d8b-b6e6f1f3a744">
-      <Execution id="66da3dc0-035a-4796-b3a3-2074836bbd83" />
+      <Execution id="c255e187-bdf8-4c8d-9a20-07712d001ebe" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesExist" />
     </UnitTest>
     <UnitTest name="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="0afa7d29-06f5-3a62-8ce9-439993ab8178">
-      <Execution id="93072766-8524-4619-a0be-6e2c27b78e8e" />
+      <Execution id="68f136d1-2a92-4901-9ce5-3561ee784e43" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" />
     </UnitTest>
     <UnitTest name="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="e40784d4-b509-7b24-dc06-ffcaafa43c7b">
-      <Execution id="ea5d3a01-0ebd-4ed0-9035-ca71e6611295" />
+      <Execution id="25195d6d-51ad-4649-914d-6442b3523b7b" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException" />
     </UnitTest>
     <UnitTest name="FileNameDoesNotExist" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" id="6f90c9b0-a18c-f05c-3cc2-7cca266a69be">
-      <Execution id="f9afc862-5a32-44b6-819d-f36f45af30f4" />
+      <Execution id="18e09c9e-91c6-49ce-b424-64c19b82fff5" />
       <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesNotExist" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" executionId="93072766-8524-4619-a0be-6e2c27b78e8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" executionId="66da3dc0-035a-4796-b3a3-2074836bbd83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" executionId="ea5d3a01-0ebd-4ed0-9035-ca71e6611295" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" executionId="f9afc862-5a32-44b6-819d-f36f45af30f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f90c9b0-a18c-f05c-3cc2-7cca266a69be" executionId="18e09c9e-91c6-49ce-b424-64c19b82fff5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0afa7d29-06f5-3a62-8ce9-439993ab8178" executionId="68f136d1-2a92-4901-9ce5-3561ee784e43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="928aa985-ca73-c448-5d8b-b6e6f1f3a744" executionId="c255e187-bdf8-4c8d-9a20-07712d001ebe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e40784d4-b509-7b24-dc06-ffcaafa43c7b" executionId="25195d6d-51ad-4649-914d-6442b3523b7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />

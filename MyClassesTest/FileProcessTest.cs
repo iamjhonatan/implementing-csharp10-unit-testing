@@ -5,6 +5,22 @@ namespace MyClassesTest;
 [TestClass]
 public class FileProcessTest : TestBase
 {
+    #region Class Initialize and Cleanup Methods
+    [ClassInitialize()]
+    public static void ClassInitialize(TestContext testContext)
+    {
+        // This code runs once before all tests run in this class
+        testContext.WriteLine("In FileProcessTest.ClassInitialize() method");
+    }
+
+    [ClassCleanup()]
+    public static void ClassCleanup()
+    {
+        // This code runs once after all tests in this class have run
+        // NOTE: TestContext is not available here
+    }
+    #endregion
+
     [TestMethod]
     public void FileNameDoesExist()
     {
