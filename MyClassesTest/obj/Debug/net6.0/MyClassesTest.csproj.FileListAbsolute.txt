@@ -103,3 +103,5 @@ C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\obj\Debug\net6.0
 C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileToDeploy.txt
 C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDataRow.txt
 C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDataRow2.txt
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic.txt
+C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic2.txt

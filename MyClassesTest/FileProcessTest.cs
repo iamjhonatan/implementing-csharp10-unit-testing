@@ -113,6 +113,30 @@ public class FileProcessTest : TestBase
     }
 
     [TestMethod]
+    [DeploymentItem("FileDynamic.txt")]
+    [DeploymentItem("FileDynamic2.txt")]
+    [DynamicData("FileNames", typeof(TestData), DynamicDataSourceType.Method)]
+    [Description("Check to see if a file exists using the [DynamicData] attribute.")]
+    [Owner("JhonatanM")]
+    [Priority(3)]
+    [TestCategory("NoException")]
+    public void FileNameDoesExistUsingDynamicData(string fileName)
+    {
+        // Arrange
+        FileProcess fileProcess = new();
+        bool fromCall;
+
+        // Add Messages to Test Output
+        WriteOutput($"Checking for File: '{fileName}' in folder '{TestContext?.DeploymentDirectory}'");
+
+        // Act
+        fromCall = fileProcess.FileExists(fileName);
+
+        // Assert
+        Assert.IsTrue(fromCall, "File {0} does NOT exist.", fileName);
+    }
+
+    [TestMethod]
     [Description("Check to see if a file exists")]
     [Owner("JhonatanM")]
     [Priority(3)]

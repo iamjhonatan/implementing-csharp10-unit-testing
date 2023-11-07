@@ -1,56 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="e1884eba-7eba-4a6a-a087-5874f46eef0e" name="Jhonatan Medeiros@DESKTOP-8DRS4MO 2023-11-07 17:49:19" runUser="DESKTOP-8DRS4MO\Jhonatan Medeiros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2023-11-07T17:49:19.2633107-03:00" queuing="2023-11-07T17:49:19.2633107-03:00" start="2023-11-07T17:49:18.8531798-03:00" finish="2023-11-07T17:49:19.2633107-03:00" />
-  <TestSettings name="default" id="f947df14-5d4c-48c8-bc16-9f388aef2f27">
-    <Deployment runDeploymentRoot="Jhonatan_Medeiros_DESKTOP-8DRS4MO_2023-11-07_17_49_19" />
+<TestRun id="8d213ae9-a138-41bb-94a6-0a5ab2dba24f" name="Jhonatan Medeiros@DESKTOP-8DRS4MO 2023-11-07 17:59:11" runUser="DESKTOP-8DRS4MO\Jhonatan Medeiros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-11-07T17:59:11.4863565-03:00" queuing="2023-11-07T17:59:11.4863565-03:00" start="2023-11-07T17:59:11.0596452-03:00" finish="2023-11-07T17:59:11.4863565-03:00" />
+  <TestSettings name="default" id="2687a30e-4b28-433c-9ed8-efa63c6ea4e3">
+    <Deployment runDeploymentRoot="Jhonatan_Medeiros_DESKTOP-8DRS4MO_2023-11-07_17_59_11" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="9a3cd9f4-e034-4445-a678-81f1580eecb5" testId="c624d25f-e0e7-d5ab-6694-efb99d6865f4" testName="FileNameDoesExistUsingDataRow (FileDataRow.txt)" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0036390" startTime="2023-11-07T17:49:19.1885738-03:00" endTime="2023-11-07T17:49:19.2176095-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a3cd9f4-e034-4445-a678-81f1580eecb5">
+    <UnitTestResult executionId="75a00391-0398-4e68-ad9f-4dc29bf02cfb" testId="4578ec5d-5943-35ba-e6fd-ba22af3da703" testName="FileNameDoesExistUsingDynamicData (FileDynamic2.txt)" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0000878" startTime="2023-11-07T17:59:11.4465991-03:00" endTime="2023-11-07T17:59:11.4470286-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75a00391-0398-4e68-ad9f-4dc29bf02cfb">
+      <Output>
+        <StdOut>TestContext Messages:
+in FileProcessTest.TestInitialize() method&#xD;
+ Test Purpose: Check to see if a file exists using the [DynamicData] attribute..
+Test Owner: JhonatanM.&#xD;
+Checking for File: 'FileDynamic2.txt' in folder 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0'</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7e9bffdc-1648-4bcc-8057-62d15b5f0e49" testId="c7df94d1-ff87-c752-eede-61ad543892bd" testName="FileNameDoesExistUsingDynamicData (FileDynamic.txt)" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0041220" startTime="2023-11-07T17:59:11.4120959-03:00" endTime="2023-11-07T17:59:11.4416133-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e9bffdc-1648-4bcc-8057-62d15b5f0e49">
       <Output>
         <StdOut>TestContext Messages:
 In MyClassesTest.AssemblyInitCleanup.Assembly&#xD;
 In FileProcessTest.ClassInitialize() method&#xD;
 in FileProcessTest.TestInitialize() method&#xD;
- Test Purpose: Check to see if a file exists using the [DataRow] attribute..
+ Test Purpose: Check to see if a file exists using the [DynamicData] attribute..
 Test Owner: JhonatanM.&#xD;
-Checking for File: 'FileDataRow.txt' in folder 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0'</StdOut>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="05fcb694-7717-423d-995f-b0f4b8072065" testId="f26b9c00-33f6-359d-fd34-c4885e913af4" testName="FileNameDoesExistUsingDataRow (FileDataRow2.txt)" computerName="DESKTOP-8DRS4MO" duration="00:00:00.0001174" startTime="2023-11-07T17:49:19.2228025-03:00" endTime="2023-11-07T17:49:19.2232778-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05fcb694-7717-423d-995f-b0f4b8072065">
-      <Output>
-        <StdOut>TestContext Messages:
-in FileProcessTest.TestInitialize() method&#xD;
- Test Purpose: Check to see if a file exists using the [DataRow] attribute..
-Test Owner: JhonatanM.&#xD;
-Checking for File: 'FileDataRow2.txt' in folder 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0'</StdOut>
+Checking for File: 'FileDynamic.txt' in folder 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0'</StdOut>
       </Output>
     </UnitTestResult>
   </Results>
   <TestDefinitions>
-    <UnitTest name="FileNameDoesExistUsingDataRow (FileDataRow.txt)" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="3" id="c624d25f-e0e7-d5ab-6694-efb99d6865f4">
+    <UnitTest name="FileNameDoesExistUsingDynamicData (FileDynamic.txt)" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="3" id="c7df94d1-ff87-c752-eede-61ad543892bd">
       <Owners>
         <Owner name="JhonatanM" />
       </Owners>
       <TestCategory>
         <TestCategoryItem TestCategory="NoException" />
       </TestCategory>
-      <Execution id="9a3cd9f4-e034-4445-a678-81f1580eecb5" />
-      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesExistUsingDataRow" />
+      <Execution id="7e9bffdc-1648-4bcc-8057-62d15b5f0e49" />
+      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesExistUsingDynamicData" />
     </UnitTest>
-    <UnitTest name="FileNameDoesExistUsingDataRow (FileDataRow2.txt)" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="3" id="f26b9c00-33f6-359d-fd34-c4885e913af4">
+    <UnitTest name="FileNameDoesExistUsingDynamicData (FileDynamic2.txt)" storage="c:\users\jhonatan medeiros\source\repos\myclasses\myclassestest\bin\debug\net6.0\myclassestest.dll" priority="3" id="4578ec5d-5943-35ba-e6fd-ba22af3da703">
       <Owners>
         <Owner name="JhonatanM" />
       </Owners>
       <TestCategory>
         <TestCategoryItem TestCategory="NoException" />
       </TestCategory>
-      <Execution id="05fcb694-7717-423d-995f-b0f4b8072065" />
-      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesExistUsingDataRow" />
+      <Execution id="75a00391-0398-4e68-ad9f-4dc29bf02cfb" />
+      <TestMethod codeBase="C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\MyClassesTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MyClassesTest.FileProcessTest" name="FileNameDoesExistUsingDynamicData" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="c624d25f-e0e7-d5ab-6694-efb99d6865f4" executionId="9a3cd9f4-e034-4445-a678-81f1580eecb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="f26b9c00-33f6-359d-fd34-c4885e913af4" executionId="05fcb694-7717-423d-995f-b0f4b8072065" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4578ec5d-5943-35ba-e6fd-ba22af3da703" executionId="75a00391-0398-4e68-ad9f-4dc29bf02cfb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7df94d1-ff87-c752-eede-61ad543892bd" executionId="7e9bffdc-1648-4bcc-8057-62d15b5f0e49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -59,11 +59,11 @@ Checking for File: 'FileDataRow2.txt' in folder 'C:\Users\Jhonatan Medeiros\sour
   <ResultSummary outcome="Completed">
     <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <RunInfos>
-      <RunInfo computerName="DESKTOP-8DRS4MO" outcome="Warning" timestamp="2023-11-07T17:49:19.1721959-03:00">
-        <Text>Test Run deployment issue: Failed to copy file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDataRow.txt' to 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDataRow.txt': System.IO.IOException: The process cannot access the file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDataRow.txt' because it is being used by another process.</Text>
+      <RunInfo computerName="DESKTOP-8DRS4MO" outcome="Warning" timestamp="2023-11-07T17:59:11.3955753-03:00">
+        <Text>Test Run deployment issue: Failed to copy file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic.txt' to 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic.txt': System.IO.IOException: The process cannot access the file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic.txt' because it is being used by another process.</Text>
       </RunInfo>
-      <RunInfo computerName="DESKTOP-8DRS4MO" outcome="Warning" timestamp="2023-11-07T17:49:19.1721959-03:00">
-        <Text>Test Run deployment issue: Failed to copy file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDataRow2.txt' to 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDataRow2.txt': System.IO.IOException: The process cannot access the file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDataRow2.txt' because it is being used by another process.</Text>
+      <RunInfo computerName="DESKTOP-8DRS4MO" outcome="Warning" timestamp="2023-11-07T17:59:11.3955753-03:00">
+        <Text>Test Run deployment issue: Failed to copy file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic2.txt' to 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic2.txt': System.IO.IOException: The process cannot access the file 'C:\Users\Jhonatan Medeiros\source\repos\MyClasses\MyClassesTest\bin\Debug\net6.0\FileDynamic2.txt' because it is being used by another process.</Text>
       </RunInfo>
     </RunInfos>
   </ResultSummary>
