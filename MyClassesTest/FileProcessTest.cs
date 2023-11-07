@@ -79,8 +79,6 @@ public class FileProcessTest : TestBase
         // Add Messages to Test Output
         WriteOutput($"Checking for File: '{FileName}'.");
 
-        FileName += "a";
-
         // Act
         fromCall = fileProcess.FileExists(FileName);
 
