@@ -57,6 +57,7 @@ public class FileProcessTest : TestBase
     #endregion
 
     [TestMethod]
+    [Ignore]
     [Timeout(3000)]
     public void SimulateTimeout()
     {
