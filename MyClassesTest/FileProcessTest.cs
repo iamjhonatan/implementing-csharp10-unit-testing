@@ -57,8 +57,10 @@ public class FileProcessTest : TestBase
     #endregion
 
     [TestMethod]
-    [Owner("JhonatanM")]
     [Description("Check to see if a file exists")]
+    [Owner("JhonatanM")]
+    [Priority(3)]
+    [TestCategory("NoException")]
     public void FileNameDoesExist()
     {
         // Arrange
@@ -77,8 +79,10 @@ public class FileProcessTest : TestBase
     }
 
     [TestMethod]
-    [Owner("JhonatanM")]
     [Description("Check to see if file does not exist")]
+    [Owner("JhonatanM")]
+    [Priority(3)]
+    [TestCategory("NoException")]
     public void FileNameDoesNotExist()
     {
         // Arrange
@@ -97,8 +101,10 @@ public class FileProcessTest : TestBase
     }
 
     [TestMethod]
-    [Owner("JhonatanM")]
     [Description("Check for a thrown ArgumentNullException using ExpectedException")]
+    [Owner("JhonatanM")]
+    [Priority(2)]
+    [TestCategory("Exception")]
     public void FileNameNullOrEmpty_UsingTryCatch_ShouldReturnThrowArgumentNullException()
     {
         // Arrange
@@ -128,9 +134,11 @@ public class FileProcessTest : TestBase
     }
 
     [TestMethod]
-    [Owner("JhonatanM")]
     [Description("Check for a thrown ArgumentNullException using ExpectedException")]
     [ExpectedException(typeof(ArgumentNullException))]
+    [Owner("JhonatanM")]
+    [Priority(1)]
+    [TestCategory("Exception")]
     public void FileNameNullOrEmpty_UsingExpectedExceptionAttribute()
     {
         // Arrange
